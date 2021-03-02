@@ -4,7 +4,7 @@ for (int i = 0; i < 7; i++)
 {
     Generate insult = Insult();
 
-    string message = "${insult}";
+    string message = $"{insult}";
 
     Console.WriteLine(message);
 }
